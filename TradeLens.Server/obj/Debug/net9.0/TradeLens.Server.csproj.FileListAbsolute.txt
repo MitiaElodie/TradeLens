@@ -37,3 +37,4 @@ C:\Users\elodi\Documents\TradeLens\TradeLens.Server\obj\Debug\net9.0\refint\Trad
 C:\Users\elodi\Documents\TradeLens\TradeLens.Server\obj\Debug\net9.0\TradeLens.Server.pdb
 C:\Users\elodi\Documents\TradeLens\TradeLens.Server\obj\Debug\net9.0\TradeLens.Server.genruntimeconfig.cache
 C:\Users\elodi\Documents\TradeLens\TradeLens.Server\obj\Debug\net9.0\ref\TradeLens.Server.dll
+C:\Users\elodi\Documents\TradeLens\TradeLens.Server\obj\Debug\net9.0\TradeLens.Server.sourcelink.json
