@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\TradeLens.Server.csproj": {}
+    "C:\\Users\\elodi\\Documents\\TradeLens\\tradeLens.server\\TradeLens.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\TradeLens.Server.csproj": {
+    "C:\\Users\\elodi\\Documents\\TradeLens\\tradeLens.server\\TradeLens.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\TradeLens.Server.csproj",
+        "projectUniqueName": "C:\\Users\\elodi\\Documents\\TradeLens\\tradeLens.server\\TradeLens.Server.csproj",
         "projectName": "TradeLens.Server",
-        "projectPath": "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\TradeLens.Server.csproj",
+        "projectPath": "C:\\Users\\elodi\\Documents\\TradeLens\\tradeLens.server\\TradeLens.Server.csproj",
         "packagesPath": "C:\\Users\\elodi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\obj\\",
+        "outputPath": "C:\\Users\\elodi\\Documents\\TradeLens\\tradeLens.server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

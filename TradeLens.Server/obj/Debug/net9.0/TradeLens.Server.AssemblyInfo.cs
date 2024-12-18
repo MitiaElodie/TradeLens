@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TradeLens.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d01cda4333c93a7014998373d38c4c6bb01c568")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cda89fbab5ea12952f6bae8370d79fdb724a598")]
 [assembly: System.Reflection.AssemblyProductAttribute("TradeLens.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TradeLens.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

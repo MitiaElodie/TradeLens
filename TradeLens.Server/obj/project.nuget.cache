@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IFyvqhG2IVM=",
+  "dgSpecHash": "4HXXtzJE/hI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\TradeLens.Server.csproj",
+  "projectFilePath": "C:\\Users\\elodi\\Documents\\TradeLens\\tradeLens.server\\TradeLens.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elodi\\.nuget\\packages\\duende.identityserver\\7.0.8\\duende.identityserver.7.0.8.nupkg.sha512",
     "C:\\Users\\elodi\\.nuget\\packages\\duende.identityserver.entityframework\\7.0.8\\duende.identityserver.entityframework.7.0.8.nupkg.sha512",
