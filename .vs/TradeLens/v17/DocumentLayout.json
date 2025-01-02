@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\elodi\\Documents\\TradeLens\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DDAA64A1-EE91-4188-9A43-A1D81464BF6C}|TradeLens.Server\\TradeLens.Server.csproj|c:\\users\\elodi\\documents\\tradelens\\tradelens.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDAA64A1-EE91-4188-9A43-A1D81464BF6C}|TradeLens.Server\\TradeLens.Server.csproj|solutionrelative:tradelens.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDAA64A1-EE91-4188-9A43-A1D81464BF6C}|TradeLens.Server\\TradeLens.Server.csproj|c:\\users\\elodi\\documents\\tradelens\\tradelens.server\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDAA64A1-EE91-4188-9A43-A1D81464BF6C}|TradeLens.Server\\TradeLens.Server.csproj|solutionrelative:tradelens.server\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDAA64A1-EE91-4188-9A43-A1D81464BF6C}|TradeLens.Server\\TradeLens.Server.csproj|c:\\users\\elodi\\documents\\tradelens\\tradelens.server\\tradelens.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DDAA64A1-EE91-4188-9A43-A1D81464BF6C}|TradeLens.Server\\TradeLens.Server.csproj|solutionrelative:tradelens.server\\tradelens.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{235B9AA3-A8E7-43FA-B7EF-7A78CCDB5929}|tradelens.client\\tradelens.client.esproj|c:\\users\\elodi\\documents\\tradelens\\tradelens.client\\src\\components\\helloworld.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{235B9AA3-A8E7-43FA-B7EF-7A78CCDB5929}|tradelens.client\\tradelens.client.esproj|solutionrelative:tradelens.client\\src\\components\\helloworld.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDAA64A1-EE91-4188-9A43-A1D81464BF6C}|TradeLens.Server\\TradeLens.Server.csproj|c:\\users\\elodi\\documents\\tradelens\\tradelens.server\\testusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDAA64A1-EE91-4188-9A43-A1D81464BF6C}|TradeLens.Server\\TradeLens.Server.csproj|solutionrelative:tradelens.server\\testusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDAA64A1-EE91-4188-9A43-A1D81464BF6C}|TradeLens.Server\\TradeLens.Server.csproj|c:\\users\\elodi\\documents\\tradelens\\tradelens.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DDAA64A1-EE91-4188-9A43-A1D81464BF6C}|TradeLens.Server\\TradeLens.Server.csproj|solutionrelative:tradelens.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{235B9AA3-A8E7-43FA-B7EF-7A78CCDB5929}|tradelens.client\\tradelens.client.esproj|c:\\users\\elodi\\documents\\tradelens\\tradelens.client\\src\\components\\welcomeitem.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -17,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DDAA64A1-EE91-4188-9A43-A1D81464BF6C}|TradeLens.Server\\TradeLens.Server.csproj|c:\\users\\elodi\\documents\\tradelens\\tradelens.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{DDAA64A1-EE91-4188-9A43-A1D81464BF6C}|TradeLens.Server\\TradeLens.Server.csproj|solutionrelative:tradelens.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDAA64A1-EE91-4188-9A43-A1D81464BF6C}|TradeLens.Server\\TradeLens.Server.csproj|c:\\users\\elodi\\documents\\tradelens\\tradelens.server\\tradelens.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DDAA64A1-EE91-4188-9A43-A1D81464BF6C}|TradeLens.Server\\TradeLens.Server.csproj|solutionrelative:tradelens.server\\tradelens.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDAA64A1-EE91-4188-9A43-A1D81464BF6C}|TradeLens.Server\\TradeLens.Server.csproj|c:\\users\\elodi\\documents\\tradelens\\tradelens.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDAA64A1-EE91-4188-9A43-A1D81464BF6C}|TradeLens.Server\\TradeLens.Server.csproj|solutionrelative:tradelens.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,28 +46,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\Program.cs",
               "RelativeDocumentMoniker": "TradeLens.Server\\Program.cs",
               "ToolTip": "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\Program.cs",
               "RelativeToolTip": "TradeLens.Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T01:15:12.616Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestUsers.cs",
+              "DocumentMoniker": "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\TestUsers.cs",
+              "RelativeDocumentMoniker": "TradeLens.Server\\TestUsers.cs",
+              "ToolTip": "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\TestUsers.cs",
+              "RelativeToolTip": "TradeLens.Server\\TestUsers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T22:31:07.382Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\Config.cs",
+              "RelativeDocumentMoniker": "TradeLens.Server\\Config.cs",
+              "ToolTip": "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\Config.cs",
+              "RelativeToolTip": "TradeLens.Server\\Config.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T22:29:02.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TradeLens.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TradeLens.Server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-18T00:00:57.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "WelcomeItem.vue",
               "DocumentMoniker": "C:\\Users\\elodi\\Documents\\TradeLens\\tradelens.client\\src\\components\\WelcomeItem.vue",
               "RelativeDocumentMoniker": "tradelens.client\\src\\components\\WelcomeItem.vue",
@@ -63,38 +109,35 @@
               "RelativeToolTip": "tradelens.client\\src\\components\\WelcomeItem.vue",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-12-17T23:54:31.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T23:54:31.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TheWelcome.vue",
-              "DocumentMoniker": "C:\\Users\\elodi\\Documents\\TradeLens\\tradelens.client\\src\\components\\TheWelcome.vue",
-              "RelativeDocumentMoniker": "tradelens.client\\src\\components\\TheWelcome.vue",
-              "ToolTip": "C:\\Users\\elodi\\Documents\\TradeLens\\tradelens.client\\src\\components\\TheWelcome.vue",
-              "RelativeToolTip": "tradelens.client\\src\\components\\TheWelcome.vue",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-12-17T23:54:29.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "HelloWorld.vue",
               "DocumentMoniker": "C:\\Users\\elodi\\Documents\\TradeLens\\tradelens.client\\src\\components\\HelloWorld.vue",
               "RelativeDocumentMoniker": "tradelens.client\\src\\components\\HelloWorld.vue",
               "ToolTip": "C:\\Users\\elodi\\Documents\\TradeLens\\tradelens.client\\src\\components\\HelloWorld.vue",
               "RelativeToolTip": "tradelens.client\\src\\components\\HelloWorld.vue",
-              "ViewState": "AgIAADQAAAAAAAAAAAD4v0kAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAmwE4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-12-17T23:53:01.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T23:53:01.821Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "TradeLens.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\TradeLens.Server.csproj",
+              "RelativeDocumentMoniker": "TradeLens.Server\\TradeLens.Server.csproj",
+              "ToolTip": "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\TradeLens.Server.csproj",
+              "RelativeToolTip": "TradeLens.Server\\TradeLens.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-16T01:07:57.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\appsettings.json",
               "RelativeDocumentMoniker": "TradeLens.Server\\appsettings.json",
@@ -102,20 +145,27 @@
               "RelativeToolTip": "TradeLens.Server\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-16T01:38:54.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T01:38:54.281Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TradeLens.Server.csproj",
-              "DocumentMoniker": "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\TradeLens.Server.csproj",
-              "RelativeDocumentMoniker": "TradeLens.Server\\TradeLens.Server.csproj",
-              "ToolTip": "C:\\Users\\elodi\\Documents\\TradeLens\\TradeLens.Server\\TradeLens.Server.csproj",
-              "RelativeToolTip": "TradeLens.Server\\TradeLens.Server.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-16T01:07:57.51Z"
+              "DocumentIndex": 7,
+              "Title": "TheWelcome.vue",
+              "DocumentMoniker": "C:\\Users\\elodi\\Documents\\TradeLens\\tradelens.client\\src\\components\\TheWelcome.vue",
+              "RelativeDocumentMoniker": "tradelens.client\\src\\components\\TheWelcome.vue",
+              "ToolTip": "C:\\Users\\elodi\\Documents\\TradeLens\\tradelens.client\\src\\components\\TheWelcome.vue",
+              "RelativeToolTip": "tradelens.client\\src\\components\\TheWelcome.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-12-17T23:54:29.125Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
