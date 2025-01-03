@@ -1,6 +1,6 @@
 services:
   tradelens.server:
-    container_name: "TradeLens.Server_1"
+    container_name: "TradeLens.Server"
     build:
       args:
         LAUNCHING_FROM_VS: true
