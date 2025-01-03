@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("751b3827-3dae-4c66-92f3-2a9ccf67c163")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TradeLens.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06fad4e3faa5b2ad9e50cfa94995a3df9289dd02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad8a4614ad6644be228a14f0922b6de5f9e5f952")]
 [assembly: System.Reflection.AssemblyProductAttribute("TradeLens.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TradeLens.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
