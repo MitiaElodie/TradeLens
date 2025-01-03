@@ -6,3 +6,5 @@
 *.bin
 
 *.v2
+
+.vs/TradeLens/v17/.suo
