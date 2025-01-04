@@ -10,10 +10,70 @@ public class TradeLensDbContext : DbContext
 }
 
 public enum TradeType { Trade, Backtest }
-public enum H4Confirmation { Deceleration, ThreeLegCompletion, FiveLegCompletion }
-public enum DailyConfirmation { BullishM, BearishW, HeadAndShoulder }
+public enum H4Pattern {
+    Deceleration,
+    ThreeLegFibCompletion,
+    FiveLegFibCompletion,
+    BMWithBOS,
+    BMWithoutBOS,
+    BWWithBOS,
+    BWWithoutBOS,
+    HSWithBOS,
+    HSWithoutBOS,
+    InverseHSWithBOS,
+    InverseHSWithoutBOS
+}
+public enum DailyPattern {
+    BM1,
+    BM2,
+    BM3,
+    BM4,
+    BW1,
+    BW2,
+    BW3,
+    BW4,
+    HS,
+    InverseHS,
+    SmallPatternWithinPattern,
+    BigPatternWithinPattern,
+    Fakeout,
+    HedgePosition,
+}
 public enum ResultType { Win, Loss, BE }
-public enum CurrencyType { EURUSD, USDCAD, EURGBP }
+public enum CurrencyType {
+    AUDCAD,
+    AUDCHF,
+    AUDJPY,
+    AUDNZD,
+    AUDUSD,
+    CADCHF,
+    CADJPY,
+    CHFJPY,
+    EURAUD,
+    EURCAD,
+    EURCHF,
+    EURGBP,
+    EURJPY,
+    EURNZD,
+    EURUSD,
+    GBPAUD,
+    GBPCAD,
+    GBPCHF,
+    GBPJPY,
+    GBPNZD,
+    GBPUSD,
+    NZDCAD,
+    NZDCHF,
+    NZDJPY,
+    NZDUSD,
+    USDCAD,
+    USDCHF,
+    USDJPY,
+    USDZAR,
+    USOIL,
+    XAGUSD,
+    XAUUSD,
+}
 
 public class Trade
 {
@@ -21,22 +81,22 @@ public class Trade
     public TradeType Type { get; set; } = TradeType.Trade;
 
     [Required]
-    public H4Confirmation H4Confirmation { get; set; }
+    public H4Pattern H4Pattern { get; set; }
 
     [Required]
-    required public string H4Image { get; set; }
+    required public string H4Screenshot { get; set; }
 
     [Required]
-    public DailyConfirmation DailyConfirmation { get; set; }
+    public DailyPattern DailyPattern { get; set; }
 
     [Required]
-    required public string DailyImage { get; set; }
+    required public string DailyScreenshot { get; set; }
 
     [Required]
-    required public string WeeklyImage { get; set; }
+    required public string WeeklyScreenshot { get; set; }
 
     [Required]
-    public bool WeeklyCandleClose { get; set; }
+    public bool WeeklyLastCandleClose { get; set; }
 
     [Required]
     public bool WeeklySupplyAndDemand { get; set; }
@@ -47,14 +107,12 @@ public class Trade
     [Required]
     public bool WeeklyFibonacci { get; set; }
 
-    [Required]
-    public double RiskReward { get; set; }
+    public double? Profit { get; set; }
 
     [Required]
     public DateTime EntryDate { get; set; }
 
-    [Required]
-    public DateTime CloseDate { get; set; }
+    public DateTime? CloseDate { get; set; }
 
     [Required]
     public CurrencyType Currency { get; set; }
