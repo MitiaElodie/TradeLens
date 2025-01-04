@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using TradeLens.Server.Profiles;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,6 +7,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+// Register AutoMapper
+builder.Services.AddAutoMapper(typeof(Program));
 
 builder.Services.AddDbContext<TradeLensDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("TradeLensDb")));

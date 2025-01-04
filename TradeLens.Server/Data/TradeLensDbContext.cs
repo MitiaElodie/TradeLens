@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TradeLens.Server.Models;
 
 public class TradeLensDbContext : DbContext
@@ -10,17 +11,21 @@ public class TradeLensDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Trade>()
-            .Property(t => t.H4Pattern)
-            .HasConversion<string>();
+        // Automatically convert all enums to strings
+        foreach (var entityType in modelBuilder.Model.GetEntityTypes())
+        {
+            foreach (var property in entityType.GetProperties())
+            {
+                if (property.ClrType.IsEnum)
+                {
+                    var enumType = property.ClrType;
+                    var converterType = typeof(EnumToStringConverter<>).MakeGenericType(enumType);
 
-        modelBuilder.Entity<Trade>()
-            .Property(t => t.DailyPattern)
-            .HasConversion<string>();
-
-        modelBuilder.Entity<Trade>()
-            .Property(t => t.DailyPattern)
-            .HasConversion<string>();
+                    var converter = (Microsoft.EntityFrameworkCore.Storage.ValueConversion.ValueConverter)Activator.CreateInstance(converterType);
+                    property.SetValueConverter(converter);
+                }
+            }
+        }
 
         base.OnModelCreating(modelBuilder);
     }
