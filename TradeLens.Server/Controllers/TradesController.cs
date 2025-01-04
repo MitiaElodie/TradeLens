@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using TradeLens.Server.Models;
 
 [Route("api/[controller]")]
 [ApiController]

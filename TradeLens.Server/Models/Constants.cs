@@ -1,0 +1,71 @@
+﻿namespace TradeLens.Server.Models
+{
+    public enum TradeType { Trade, Backtest }
+    public enum H4Pattern
+    {
+        Deceleration,
+        ThreeLegFibCompletion,
+        FiveLegFibCompletion,
+        BMWithBOS,
+        BMWithoutBOS,
+        BWWithBOS,
+        BWWithoutBOS,
+        HSWithBOS,
+        HSWithoutBOS,
+        InverseHSWithBOS,
+        InverseHSWithoutBOS
+    }
+    public enum DailyPattern
+    {
+        BM1,
+        BM2,
+        BM3,
+        BM4,
+        BW1,
+        BW2,
+        BW3,
+        BW4,
+        HS,
+        InverseHS,
+        SmallPatternWithinPattern,
+        BigPatternWithinPattern,
+        Fakeout,
+        HedgePosition,
+    }
+    public enum ResultType { Win, Loss, BE }
+    public enum CurrencyType
+    {
+        AUDCAD,
+        AUDCHF,
+        AUDJPY,
+        AUDNZD,
+        AUDUSD,
+        CADCHF,
+        CADJPY,
+        CHFJPY,
+        EURAUD,
+        EURCAD,
+        EURCHF,
+        EURGBP,
+        EURJPY,
+        EURNZD,
+        EURUSD,
+        GBPAUD,
+        GBPCAD,
+        GBPCHF,
+        GBPJPY,
+        GBPNZD,
+        GBPUSD,
+        NZDCAD,
+        NZDCHF,
+        NZDJPY,
+        NZDUSD,
+        USDCAD,
+        USDCHF,
+        USDJPY,
+        USDZAR,
+        USOIL,
+        XAGUSD,
+        XAUUSD,
+    }
+}

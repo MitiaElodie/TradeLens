@@ -138,3 +138,4 @@ C:\Users\elodi\Documents\TradeLens\TradeLens.Server\bin\Debug\net9.0\ru\Microsof
 C:\Users\elodi\Documents\TradeLens\TradeLens.Server\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\elodi\Documents\TradeLens\TradeLens.Server\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\elodi\Documents\TradeLens\TradeLens.Server\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\elodi\Documents\TradeLens\TradeLens.Server\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
