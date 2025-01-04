@@ -14,3 +14,7 @@ TradeLens.Server/bin/
 .vs/
 
 bin/
+
+TradeLens.Server/obj/
+
+obj/
