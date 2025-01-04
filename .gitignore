@@ -12,3 +12,5 @@
 TradeLens.Server/bin/
 
 .vs/
+
+bin/
