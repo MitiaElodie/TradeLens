@@ -44,7 +44,7 @@ namespace TradeLens.Server.Migrations
                     b.Property<int>("DailyPattern")
                         .HasColumnType("integer");
 
-                    b.Property<string>("DailyScreenshot")
+                    b.Property<string>("DailyImage")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -57,7 +57,7 @@ namespace TradeLens.Server.Migrations
                     b.Property<int>("H4Pattern")
                         .HasColumnType("integer");
 
-                    b.Property<string>("H4Screenshot")
+                    b.Property<string>("H4Image")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -97,7 +97,7 @@ namespace TradeLens.Server.Migrations
                     b.Property<bool?>("WeeklyPattern")
                         .HasColumnType("boolean");
 
-                    b.Property<string>("WeeklyScreenshot")
+                    b.Property<string>("WeeklyImage")
                         .IsRequired()
                         .HasColumnType("text");
 
