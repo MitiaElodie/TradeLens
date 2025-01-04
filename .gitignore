@@ -8,3 +8,5 @@
 *.v2
 
 .vs/TradeLens/v17/.suo
+
+TradeLens.Server/bin/
