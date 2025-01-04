@@ -1,30 +1,19 @@
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-builder.Services.AddIdentityServer(options =>
-{
-    options.Events.RaiseErrorEvents = true;
-    options.Events.RaiseInformationEvents = true;
-    options.Events.RaiseFailureEvents = true;
-    options.Events.RaiseSuccessEvents = true;
-
-    options.EmitStaticAudienceClaim = true;
-}).AddInMemoryClients(Config.Clients)
-    .AddInMemoryIdentityResources(Config.IdentityResources)
-    .AddInMemoryApiScopes(Config.ApiScopes)
-    .AddTestUsers(TestUsers.Users);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<TradeLensDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("TradeLensDb")));
+
 var app = builder.Build();
 
 app.UseDefaultFiles();
 app.UseStaticFiles();
-
-app.UseIdentityServer();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

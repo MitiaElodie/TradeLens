@@ -25,3 +25,8 @@ C:\Users\elodi\Documents\TradeLens\bin\Debug\TradeLens.Server.pdb
 C:\Users\elodi\Documents\TradeLens\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\elodi\Documents\TradeLens\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\elodi\Documents\TradeLens\obj\Debug\docker-c.35A3FFBA.Up2Date
+C:\Users\elodi\Documents\TradeLens\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\elodi\Documents\TradeLens\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\elodi\Documents\TradeLens\bin\Debug\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\elodi\Documents\TradeLens\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\elodi\Documents\TradeLens\bin\Debug\Npgsql.dll

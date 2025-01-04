@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t46X0fCtWZ6zbd0KB7tAsH2Di73dm+SlQB3DAz0CykI=",
+  "Hash": "EXJjuoJpPf7wBn82qZzpOhWeW9Nb9g4sjQ2FT8WZYaw=",
   "Source": "TradeLens.Server",
   "BasePath": "_content/TradeLens.Server",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "tradelens.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
