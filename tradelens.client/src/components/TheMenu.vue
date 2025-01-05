@@ -7,7 +7,7 @@ export default {
 <template>
    <nav>
       <ul>
-         <li><RouterLink to="/">Trade list</RouterLink></li>
+         <li><RouterLink to="/">Trade journal</RouterLink></li>
       </ul>
    </nav>
 </template>

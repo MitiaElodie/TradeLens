@@ -47,6 +47,6 @@
 
 <template>
    <div class="trade-list">
-       <h1 class="trade-list__title">Trade list</h1>
+       <h1 class="trade-list__title">Trade journal</h1>
    </div>
 </template>
