@@ -48,5 +48,6 @@
 <template>
    <div class="trade-list">
        <h1 class="trade-list__title">Trade journal</h1>
+        <v-btn>Vuetify Button</v-btn>
    </div>
 </template>
