@@ -4,17 +4,17 @@
     {
         public int? Id { get; set; } // Nullable for creation, populated for updates
 
-        public string Type { get; set; } // Enum as string (e.g., "Trade", "Backtest")
+        public string Type { get; set; } = TradeType.Trade.ToString();
 
         public string H4Pattern { get; set; } // Enum as string (e.g., "Deceleration")
 
-        public string H4Image { get; set; } // Link to the H4 image
+        public string H4Screenshot { get; set; } // Link to the H4 Screenshot
 
         public string DailyPattern { get; set; } // Enum as string (e.g., "BullishM")
 
-        public string DailyImage { get; set; } // Link to the daily image
+        public string DailyScreenshot { get; set; } // Link to the daily Screenshot
 
-        public string WeeklyImage { get; set; } // Link to the weekly image
+        public string WeeklyScreenshot { get; set; } // Link to the weekly Screenshot
 
         public bool? WeeklyCandleClose { get; set; } // Nullable boolean
 

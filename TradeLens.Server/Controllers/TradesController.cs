@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using TradeLens.Server.Models;
 using TradeLens.Server.Models.Dtos;
 
-[Route("api/[controller]")]
+[Route("api/v1/[controller]")]
 [ApiController]
 public class TradesController : ControllerBase
 {
