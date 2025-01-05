@@ -5,9 +5,12 @@ export default {
 </script>
 
 <template>
-   <nav>
-      <ul>
-         <li><RouterLink to="/">Trade journal</RouterLink></li>
-      </ul>
-   </nav>
+   <v-navigation-drawer>
+      <v-list-item title="TradeLens"></v-list-item>
+      <v-divider></v-divider>
+      <v-list-item
+         :to="{name: 'Home'}"
+         title="Trade journal"
+      ></v-list-item>
+   </v-navigation-drawer>
 </template>

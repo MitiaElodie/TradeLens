@@ -1,17 +1,14 @@
 <script setup lang="ts">
 import TheMenu from '@/components/TheMenu.vue'
-
 </script>
 
 <template>
-  <div class="app__container">
-    <aside class="app__menu">
-      <TheMenu />
-    </aside>
-    <main class="app__content">
+  <v-app class="app__container">
+    <TheMenu />
+    <v-main class="app__content">
       <router-view />
-    </main>
-  </div>
+    </v-main>
+  </v-app>
 </template>
 
 <style lang="scss">
