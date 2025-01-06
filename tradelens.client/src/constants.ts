@@ -1,5 +1,10 @@
 export const TRADE_LIST_HEADER = [
    {
+      title: 'Id',
+      align: 'start',
+      sortable: true,
+      key: 'id',
+   },   {
       title: 'Pair',
       align: 'start',
       sortable: true,
