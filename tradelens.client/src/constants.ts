@@ -23,7 +23,7 @@ export const TRADE_JOURNAL_HEADER = [
       key: 'result',
    },
    {
-      title: 'Profit',
+      title: 'Profit (%)',
       align: 'start',
       sortable: true,
       key: 'profit',
