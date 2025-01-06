@@ -23,12 +23,6 @@ export const TRADE_LIST_HEADER = [
       key: 'result',
    },
    {
-      title: 'Missed',
-      align: 'start',
-      sortable: true,
-      key: 'missed',
-   },
-   {
       title: 'Note',
       align: 'start',
       sortable: true,
@@ -105,5 +99,11 @@ export const TRADE_LIST_HEADER = [
       align: 'start',
       sortable: true,
       key: 'weeklyFibonacci',
+   },
+   {
+      title: 'Missed',
+      align: 'start',
+      sortable: true,
+      key: 'missed',
    },
 ]
