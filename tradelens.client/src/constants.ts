@@ -23,12 +23,6 @@ export const TRADE_JOURNAL_HEADER = [
       key: 'result',
    },
    {
-      title: 'Note',
-      align: 'start',
-      sortable: true,
-      key: 'note',
-   },
-   {
       title: 'Profit',
       align: 'start',
       sortable: true,
@@ -45,36 +39,6 @@ export const TRADE_JOURNAL_HEADER = [
       align: 'start',
       sortable: true,
       key: 'closeDate',
-   },
-   {
-      title: 'H4 Pattern',
-      align: 'start',
-      sortable: true,
-      key: 'h4Pattern',
-   },
-   {
-      title: 'H4 Screenshot',
-      align: 'start',
-      sortable: true,
-      key: 'h4Screenshot',
-   },
-   {
-      title: 'Daily Pattern',
-      align: 'start',
-      sortable: true,
-      key: 'dailyPattern',
-   },
-   {
-      title: 'Daily Screenshot',
-      align: 'start',
-      sortable: true,
-      key: 'dailyScreenshot',
-   },
-   {
-      title: 'Weekly Screenshot',
-      align: 'start',
-      sortable: true,
-      key: 'weeklyScreenshot',
    },
    {
       title: 'Weekly Last Candle Close',
@@ -101,9 +65,59 @@ export const TRADE_JOURNAL_HEADER = [
       key: 'weeklyFibonacci',
    },
    {
+      title: 'Daily Pattern',
+      align: 'start',
+      sortable: true,
+      key: 'dailyPattern',
+   },
+   {
+      title: 'H4 Pattern',
+      align: 'start',
+      sortable: true,
+      key: 'h4Pattern',
+   },
+   
+   {
+      title: 'Weekly Screenshot',
+      align: 'start',
+      sortable: true,
+      key: 'weeklyScreenshot',
+   },
+   {
+      title: 'Daily Screenshot',
+      align: 'start',
+      sortable: true,
+      key: 'dailyScreenshot',
+   },
+   {
+      title: 'H4 Screenshot',
+      align: 'start',
+      sortable: true,
+      key: 'h4Screenshot',
+   },
+   {
       title: 'Missed',
       align: 'start',
       sortable: true,
       key: 'missed',
    },
+   {
+      title: 'Note',
+      align: 'start',
+      sortable: true,
+      key: 'note',
+   },
 ]
+
+export const TRADE_TYPES = {
+   trade: {
+      name: 'Trade',
+      color: 'green',
+      prefix: 'T',
+   },
+   backTest: {
+      name: 'BackTest',
+      color: 'blue',
+      prefix: 'B',
+   }
+}
