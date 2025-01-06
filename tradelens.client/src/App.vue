@@ -5,7 +5,7 @@ import TheMenu from '@/components/TheMenu.vue'
 <template>
   <v-app class="app__container">
     <TheMenu />
-    <v-main class="app__content">
+    <v-main class="app__content ma-4">
       <router-view />
     </v-main>
   </v-app>
