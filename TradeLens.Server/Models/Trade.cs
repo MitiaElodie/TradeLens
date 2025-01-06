@@ -42,7 +42,7 @@ namespace TradeLens.Server.Models
         public DateTime? CloseDate { get; set; }
 
         [Required]
-        public CurrencyType Currency { get; set; }
+        public CurrencyPair Pair { get; set; }
 
         public bool? WeeklyHighLow { get; set; }
         public bool? WeeklyPattern { get; set; }

@@ -33,7 +33,7 @@
         HedgePosition,
     }
     public enum ResultType { Win, Loss, BE }
-    public enum CurrencyType
+    public enum CurrencyPair
     {
         AUDCAD,
         AUDCHF,

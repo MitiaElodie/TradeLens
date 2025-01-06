@@ -1,4 +1,4 @@
-﻿namespace TradeLens.Server.Models.Dtos
+namespace TradeLens.Server.Models.Dtos
 {
     public class TradeDto
     {
@@ -36,6 +36,6 @@
 
         public DateTime? CloseDate { get; set; } // Close date with time
 
-        public string Currency { get; set; } // Enum as string (e.g., "EURUSD")
+        public string Pair { get; set; } // Enum as string (e.g., "EURUSD")
     }
 }
