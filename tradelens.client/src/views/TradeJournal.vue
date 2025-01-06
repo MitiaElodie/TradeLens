@@ -40,7 +40,9 @@ export default {
       :items="trades"
    >
       <template v-slot:[`item.pair`]="{ item }">
-        <v-chip dark>
+        <v-chip
+         prepend-icon="mdi-currency-usd"
+         dark>
           {{ item.pair }}
         </v-chip>
       </template>
