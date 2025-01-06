@@ -1,13 +1,13 @@
 
 <script lang="ts">
 import { getTrades } from '@/api/tradeLensApi';
-import { TRADE_LIST_HEADER } from '@/constants.js';
+import { TRADE_JOURNAL_HEADER } from '@/constants.js';
 export default {
    data() {
       return {
          loading: false,
          trades: [],
-         TRADE_LIST_HEADER,
+         TRADE_JOURNAL_HEADER,
       };
    },
 
@@ -33,10 +33,10 @@ export default {
 </script>
 
 <template>
-<div class="trade-list">
-   <h1 class="trade-list__title">Trade journal</h1>
+<div class="trade-journal">
+   <h1 class="trade-journal__title">Trade journal</h1>
    <v-data-table
-      :headers="TRADE_LIST_HEADER"
+      :headers="TRADE_JOURNAL_HEADER"
       :items="trades"
    >
       <template v-slot:[`item.pair`]="{ item }">

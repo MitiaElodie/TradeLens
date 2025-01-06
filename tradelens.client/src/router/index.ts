@@ -1,12 +1,12 @@
 // src/router.ts
 import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router';
-import TradeList from '@/views/TradeList.vue';
+import TradeJournal from '@/views/TradeJournal.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/',
-    name: 'Home',
-    component: TradeList
+    path: '/trade',
+    name: 'TradeJournal',
+    component: TradeJournal
   },
 ];
 

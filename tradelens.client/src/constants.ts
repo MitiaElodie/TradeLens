@@ -1,4 +1,4 @@
-export const TRADE_LIST_HEADER = [
+export const TRADE_JOURNAL_HEADER = [
    {
       title: 'Id',
       align: 'start',
