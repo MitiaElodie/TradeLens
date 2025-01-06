@@ -38,6 +38,12 @@ export default {
    <v-data-table
       :headers="TRADE_LIST_HEADER"
       :items="trades"
-   ></v-data-table>
+   >
+      <template v-slot:[`item.pair`]="{ item }">
+        <v-chip dark>
+          {{ item.pair }}
+        </v-chip>
+      </template>
+   </v-data-table>
 </div>
 </template>
