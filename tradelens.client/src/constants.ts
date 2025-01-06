@@ -110,12 +110,12 @@ export const TRADE_JOURNAL_HEADER = [
 ]
 
 export const TRADE_TYPES = {
-   trade: {
+   Trade: {
       name: 'Trade',
       color: 'green',
       prefix: 'T',
    },
-   backTest: {
+   BackTest: {
       name: 'BackTest',
       color: 'blue',
       prefix: 'B',
