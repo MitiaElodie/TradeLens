@@ -30,7 +30,7 @@
 
         public string Note { get; set; } // Notes about the trade
 
-        public decimal? RiskReward { get; set; } // Nullable number for risk/reward ratio
+        public decimal? Profit { get; set; } // Nullable number for risk/reward ratio
 
         public DateTime? EntryDate { get; set; } // Entry date with time
 
