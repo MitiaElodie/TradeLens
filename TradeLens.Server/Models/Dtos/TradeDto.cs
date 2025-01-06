@@ -1,4 +1,4 @@
-namespace TradeLens.Server.Models.Dtos
+﻿namespace TradeLens.Server.Models.Dtos
 {
     public class TradeDto
     {
@@ -16,7 +16,7 @@ namespace TradeLens.Server.Models.Dtos
 
         public string WeeklyScreenshot { get; set; } // Link to the weekly Screenshot
 
-        public bool? WeeklyCandleClose { get; set; } // Nullable boolean
+        public bool? WeeklyLastCandleClose { get; set; } // Nullable boolean
 
         public bool? WeeklySupplyAndDemand { get; set; } // Nullable boolean
 
