@@ -21,7 +21,8 @@ public class TradesController : ControllerBase
     public async Task<IActionResult> GetTrades()
     {
         var trades = await _context.Trades.ToListAsync();
-        return Ok(trades);
+        var tradeDtos = _mapper.Map<List<TradeDto>>(trades);
+        return Ok(tradeDtos);
     }
 
     [HttpPost]
