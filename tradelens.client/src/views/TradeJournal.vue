@@ -1,6 +1,7 @@
 
 <script lang="ts">
-import { getTrades } from '@/api/tradeLensApi';
+import { getTrades } from '@/api/tradeLensApi.js';
+import { getTradePrefixedId } from '@/utils.js';
 import { TRADE_JOURNAL_HEADER } from '@/constants.js';
 export default {
    data() {
@@ -16,6 +17,7 @@ export default {
    },
 
    methods: {
+      getTradePrefixedId,
       fetchData(): void {
          this.loading = true;
 
@@ -39,9 +41,13 @@ export default {
       :headers="TRADE_JOURNAL_HEADER"
       :items="trades"
    >
+      <template v-slot:[`item.id`]="{ item }">
+        {{ getTradePrefixedId(item.id, item.type) }}
+      </template>
       <template v-slot:[`item.pair`]="{ item }">
         <v-chip
          prepend-icon="mdi-currency-usd"
+         size="small"
          dark>
           {{ item.pair }}
         </v-chip>
