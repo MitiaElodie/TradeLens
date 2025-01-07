@@ -122,6 +122,21 @@ export const TRADE_TYPES = {
    }
 }
 
+export const RESULT_TYPES = {
+   Win: {
+      name: 'Win',
+      color: 'green',
+   },
+   Loss: {
+      name: 'Loss',
+      color: 'red',
+   },
+   BE: {
+      name: 'BE',
+      color: 'yellow',
+   }
+}
+
 export const CURRENCY_PAIR = {
    AUDCAD: 'AUDCAD',
    AUDCHF: 'AUDCHF',
