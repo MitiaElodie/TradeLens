@@ -17,6 +17,10 @@ export default {
             type: '',
             pair: '',
             result: '',
+            weeklyLastCandleClose: false,
+            weeklySupplyAndDemand: false,
+            weeklyMarketStructure: false,
+            weeklyFibonacci: false,
          },
       };
    },
@@ -44,6 +48,22 @@ export default {
                <MultiselectResultType
                   v-model="trade.result"
                />
+               <v-checkbox
+                  label="Weekly last candle close"
+                  v-model="trade.weeklyLastCandleClose"
+               ></v-checkbox>
+               <v-checkbox
+                  label="Weekly supply and demand"
+                  v-model="trade.weeklySupplyAndDemand"
+               ></v-checkbox>
+               <v-checkbox
+                  label="Weekly market structure"
+                  v-model="trade.weeklyMarketStructure"
+               ></v-checkbox>
+               <v-checkbox
+                  label="Weekly fibonacci"
+                  v-model="trade.weeklyFibonacci"
+               ></v-checkbox>
             </v-card-text>
 
             <v-card-actions>
