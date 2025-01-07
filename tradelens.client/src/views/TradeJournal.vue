@@ -3,7 +3,13 @@
 import { getTrades } from '@/api/tradeLensApi.js';
 import { getTradePrefixedId } from '@/utils.js';
 import { TRADE_JOURNAL_HEADER } from '@/constants.js';
+import AddTradeDialog from '@/components/trades/AddTradeDialog.vue';
+
 export default {
+   components: {
+      AddTradeDialog,
+   },
+
    data() {
       return {
          loading: false,
@@ -36,7 +42,10 @@ export default {
 
 <template>
 <div class="trade-journal">
-   <h1 class="trade-journal__title">Trade journal</h1>
+   <div class="trade-journal__header-container d-flex ga-4 align-center">
+      <h1 class="trade-journal__title">Trade journal</h1>
+      <AddTradeDialog />
+   </div>
    <v-data-table
       :headers="TRADE_JOURNAL_HEADER"
       :items="trades"
