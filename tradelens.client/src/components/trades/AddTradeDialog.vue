@@ -21,15 +21,20 @@ export default {
       return {
          trade: getEmptyTrade(),
          isDialogOpen: false,
+         isAdding: false,
       };
    },
 
    methods: {
       addTrade(): void {
+         this.isAdding = true;
          tradeApi.addTrade(this.trade)
             .then(() => {
                this.$emit('trade-added');
                this.closeDialog();
+            })
+            .finally(() => {
+               this.isAdding = false;
             });
       },
 
@@ -112,14 +117,16 @@ export default {
             <v-card-actions>
             <v-spacer></v-spacer>
                <v-btn
+                  :disabled="isAdding"
                   text="Cancel"
                   @click="closeDialog"
-               ></v-btn>
+               />
                <v-btn
+                  :loading="isAdding"
                   color="primary"
                   text="Add"
                   @click="addTrade"
-               ></v-btn>
+               />
             </v-card-actions>
          </v-card>
       </template>
