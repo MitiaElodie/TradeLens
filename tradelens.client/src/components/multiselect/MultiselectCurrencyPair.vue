@@ -3,13 +3,6 @@ import { CURRENCY_PAIR } from '@/constants.js';
 export default {
    name: 'MultiselectCurrencyPair',
 
-   props: {
-      value: {
-         type: String,
-         required: true,
-      },
-   },
-
    computed: {
       currencyPairs(): string[] {
          return Object.values(CURRENCY_PAIR);
