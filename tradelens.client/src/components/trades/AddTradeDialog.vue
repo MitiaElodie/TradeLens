@@ -2,6 +2,8 @@
 import MultiselectTradeType from '@/components/multiselect/MultiselectTradeType.vue';
 import MultiselectCurrencyPair from '@/components/multiselect/MultiselectCurrencyPair.vue';
 import MultiselectResultType from '@/components/multiselect/MultiselectResultType.vue';
+import MultiselectDailyPattern from '@/components/multiselect/MultiselectDailyPattern.vue';
+import MultiselectH4Pattern from '@/components/multiselect/MultiselectH4Pattern.vue';
 
 export default {
    name: 'AddTradeDialog',
@@ -9,6 +11,8 @@ export default {
       MultiselectTradeType,
       MultiselectCurrencyPair,
       MultiselectResultType,
+      MultiselectDailyPattern,
+      MultiselectH4Pattern,
    },
 
    data() {
@@ -64,6 +68,8 @@ export default {
                   label="Weekly fibonacci"
                   v-model="trade.weeklyFibonacci"
                ></v-checkbox>
+               <MultiselectDailyPattern />
+               <MultiselectH4Pattern />
             </v-card-text>
 
             <v-card-actions>
