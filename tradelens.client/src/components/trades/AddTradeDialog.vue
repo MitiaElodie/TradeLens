@@ -4,6 +4,7 @@ import MultiselectCurrencyPair from '@/components/multiselect/MultiselectCurrenc
 import MultiselectResultType from '@/components/multiselect/MultiselectResultType.vue';
 import MultiselectDailyPattern from '@/components/multiselect/MultiselectDailyPattern.vue';
 import MultiselectH4Pattern from '@/components/multiselect/MultiselectH4Pattern.vue';
+import { getEmptyTrade } from '@/utils.js';
 
 export default {
    name: 'AddTradeDialog',
@@ -17,29 +18,23 @@ export default {
 
    data() {
       return {
-         trade: {
-            type: '',
-            pair: '',
-            result: '',
-            weeklyLastCandleClose: false,
-            weeklySupplyAndDemand: false,
-            weeklyMarketStructure: false,
-            weeklyFibonacci: false,
-            dailyPattern: '',
-            h4Pattern: '',
-            weeklyScreenshot: '',
-            dailyScreenshot: '',
-            h4Screenshot: '',
-            missed: false,
-            note: '',
-         },
+         trade: getEmptyTrade(),
+         isDialogOpen: false,
       };
    },
+
+   methods: {
+      addTrade(): void {
+         this.isDialogOpen = false;
+         console.log(this.trade);
+      },
+   }
 }
 </script>
 
 <template>
    <v-dialog
+      v-model="isDialogOpen"
       max-width="500"
       scrollable
    >
@@ -50,7 +45,7 @@ export default {
          ></v-btn>
       </template>
 
-      <template v-slot:default="{ isActive }">
+      <template v-slot:default>
          <v-card title="Dialog">
             <v-card-text>
                <MultiselectTradeType
@@ -108,11 +103,10 @@ export default {
 
             <v-card-actions>
             <v-spacer></v-spacer>
-
-            <v-btn
-               text="Close Dialog"
-               @click="isActive.value = false"
-            ></v-btn>
+               <v-btn
+                  text="Add"
+                  @click="addTrade"
+               ></v-btn>
             </v-card-actions>
          </v-card>
       </template>
