@@ -10,7 +10,7 @@ export function getTradePrefixedId(id: number, type: string): string {
 
 export function getEmptyTrade(): object {
    return {
-      type: '',
+      type: TRADE_TYPES.Trade.name,
       pair: '',
       result: '',
       weeklyLastCandleClose: false,
@@ -24,5 +24,6 @@ export function getEmptyTrade(): object {
       h4Screenshot: '',
       missed: false,
       note: '',
+      profit: undefined,
    }
 }

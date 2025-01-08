@@ -108,10 +108,14 @@ export default {
                   label="Missed"
                   v-model="trade.missed"
                ></v-checkbox>
+               <v-text-field
+                  label="Profit (%)"
+                  v-model="trade.profit"
+               />
                <v-textarea
                   label="Note"
                   v-model="trade.note"
-               ></v-textarea>
+               />
             </v-card-text>
 
             <v-card-actions>
