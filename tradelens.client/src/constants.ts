@@ -171,3 +171,109 @@ export const CURRENCY_PAIR = {
    XAGUSD: 'XAGUSD',
    XAUUSD: 'XAUUSD',
 }
+
+export const DAILY_PATTERN = {
+   BM1: {
+      value: 'BM1',
+      label: 'BM1',
+   },
+   BM2: {
+      value: 'BM2',
+      label: 'BM2',
+   },
+   BM3: {
+      value: 'BM3',
+      label: 'BM3',
+   },
+   BM4: {
+      value: 'BM4',
+      label: 'BM4',
+   },
+   BW1: {
+      value: 'BW1',
+      label: 'BW1',
+   },
+   BW2: {
+      value: 'BW2',
+      label: 'BW2',
+   },
+   BW3: {
+      value: 'BW3',
+      label: 'BW3',
+   },
+   BW4: {
+      value: 'BW4',
+      label: 'BW4',
+   },
+   HS: {
+      value: 'HS',
+      label: 'Head and shoulder',
+   },
+   InverseHS: {
+      value: 'InverseHS',
+      label: 'Inverse head and shoulder',
+   },
+   SmallPatternWithinPattern: {
+      value: 'SmallPatternWithinPattern',
+      label: 'Small pattern within pattern',
+   },
+   BigPatternWithinPattern: {
+      value: 'BigPatternWithinPattern',
+      label: 'Big pattern within pattern',
+   },
+   Fakeout: {
+      value: 'Fakeout',
+      label: 'Fakeout',
+   },
+   HedgePosition: {
+      value: 'HedgePosition',
+      label: 'Hedge position',
+   },
+}
+
+export const H4_PATTERN = {
+   Deceleration: {
+      value: 'Deceleration',
+      label: 'Deceleration',
+   },
+   ThreeLegFibCompletion: {
+      value: 'ThreeLegFibCompletion',
+      label: 'Three leg fib completion',
+   },
+   FiveLegFibCompletion: {
+      value: 'FiveLegFibCompletion',
+      label: 'Five leg fib completion',
+   },
+   BMWithBOS: {
+      value: 'BMWithBOS',
+      label: 'BM with BOS',
+   },
+   BMWithoutBOS: {
+      value: 'BMWithoutBOS',
+      label: 'BM without BOS',
+   },
+   BWWithBOS: {
+      value: 'BWWithBOS',
+      label: 'BW with BOS',
+   },
+   BWWithoutBOS: {
+      value: 'BWWithoutBOS',
+      label: 'BW without BOS',
+   },
+   HSWithBOS: {
+      value: 'HSWithBOS',
+      label: 'HS with BOS',
+   },
+   HSWithoutBOS: {
+      value: 'HSWithoutBOS',
+      label: 'HS without BOS',
+   },
+   InverseHSWithBOS: {
+      value: 'InverseHSWithBOS',
+      label: 'Inverse HS with BOS',
+   },
+   InverseHSWithoutBOS: {
+      value: 'InverseHSWithoutBOS',
+      label: 'Inverse HS without BOS',
+   }
+}
