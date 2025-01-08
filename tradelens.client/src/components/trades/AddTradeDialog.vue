@@ -25,6 +25,13 @@ export default {
             weeklySupplyAndDemand: false,
             weeklyMarketStructure: false,
             weeklyFibonacci: false,
+            dailyPattern: '',
+            h4Pattern: '',
+            weeklyScreenshot: '',
+            dailyScreenshot: '',
+            h4Screenshot: '',
+            missed: false,
+            note: '',
          },
       };
    },
@@ -32,7 +39,10 @@ export default {
 </script>
 
 <template>
-   <v-dialog max-width="500">
+   <v-dialog
+      max-width="500"
+      scrollable
+   >
       <template v-slot:activator="{ props: activatorProps }">
          <v-btn
             v-bind="activatorProps"
@@ -68,15 +78,32 @@ export default {
                   label="Weekly fibonacci"
                   v-model="trade.weeklyFibonacci"
                ></v-checkbox>
-               <MultiselectDailyPattern />
-               <MultiselectH4Pattern />
-               <v-text-field label="Weekly screenshot"></v-text-field>
-               <v-text-field label="Daily screenshot"></v-text-field>
-               <v-text-field label="H4 screenshot"></v-text-field>
+               <MultiselectDailyPattern
+                  v-model="trade.dailyPattern"
+               />
+               <MultiselectH4Pattern
+                  v-model="trade.h4Pattern"
+               />
+               <v-text-field
+                  label="Weekly screenshot"
+                  v-model="trade.weeklyScreenshot"   
+               ></v-text-field>
+               <v-text-field
+                  label="Daily screenshot"
+                  v-model="trade.dailyScreenshot"
+               ></v-text-field>
+               <v-text-field
+                  label="H4 screenshot"
+                  v-model="trade.h4Screenshot"
+               ></v-text-field>
                <v-checkbox
                   label="Missed"
+                  v-model="trade.missed"
                ></v-checkbox>
-               <v-textarea label="Note"></v-textarea>
+               <v-textarea
+                  label="Note"
+                  v-model="trade.note"
+               ></v-textarea>
             </v-card-text>
 
             <v-card-actions>
