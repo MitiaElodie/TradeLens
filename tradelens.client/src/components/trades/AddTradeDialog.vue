@@ -70,6 +70,13 @@ export default {
                ></v-checkbox>
                <MultiselectDailyPattern />
                <MultiselectH4Pattern />
+               <v-text-field label="Weekly screenshot"></v-text-field>
+               <v-text-field label="Daily screenshot"></v-text-field>
+               <v-text-field label="H4 screenshot"></v-text-field>
+               <v-checkbox
+                  label="Missed"
+               ></v-checkbox>
+               <v-textarea label="Note"></v-textarea>
             </v-card-text>
 
             <v-card-actions>
