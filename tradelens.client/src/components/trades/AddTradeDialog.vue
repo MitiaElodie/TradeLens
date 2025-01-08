@@ -5,6 +5,7 @@ import MultiselectResultType from '@/components/multiselect/MultiselectResultTyp
 import MultiselectDailyPattern from '@/components/multiselect/MultiselectDailyPattern.vue';
 import MultiselectH4Pattern from '@/components/multiselect/MultiselectH4Pattern.vue';
 import { getEmptyTrade } from '@/utils.js';
+import * as tradeApi from '@/api/tradeApi.js';
 
 export default {
    name: 'AddTradeDialog',
@@ -25,8 +26,15 @@ export default {
 
    methods: {
       addTrade(): void {
+         tradeApi.addTrade(this.trade)
+            .then(() => {
+               this.$emit('trade-added');
+               this.closeDialog();
+            });
+      },
+
+      closeDialog(): void {
          this.isDialogOpen = false;
-         console.log(this.trade);
       },
    }
 }
