@@ -55,6 +55,7 @@ export default defineConfig({
         https: {
             key: fs.readFileSync(keyFilePath),
             cert: fs.readFileSync(certFilePath),
-        }
+        },
+        open: '/index.html', // Ouvre l'application automatiquement dans le navigateur
     }
 })
