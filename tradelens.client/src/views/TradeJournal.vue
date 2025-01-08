@@ -1,6 +1,6 @@
 
 <script lang="ts">
-import { getTrades } from '@/api/tradeLensApi.js';
+import { getTrades } from '@/api/tradeApi.js';
 import { getTradePrefixedId } from '@/utils.js';
 import { TRADE_JOURNAL_HEADER } from '@/constants.js';
 import AddTradeDialog from '@/components/trades/AddTradeDialog.vue';
