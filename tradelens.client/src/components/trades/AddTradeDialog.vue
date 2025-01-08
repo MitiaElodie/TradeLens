@@ -112,6 +112,11 @@ export default {
             <v-card-actions>
             <v-spacer></v-spacer>
                <v-btn
+                  text="Cancel"
+                  @click="closeDialog"
+               ></v-btn>
+               <v-btn
+                  color="primary"
                   text="Add"
                   @click="addTrade"
                ></v-btn>
