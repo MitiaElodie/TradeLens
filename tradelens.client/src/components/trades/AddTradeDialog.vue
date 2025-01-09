@@ -7,6 +7,7 @@ import MultiselectH4Pattern from '@/components/multiselect/MultiselectH4Pattern.
 import DateAndTimePicker from '@/components/forms/DateAndTimePicker.vue';
 import { getEmptyTrade } from '@/utils.js';
 import * as tradeApi from '@/api/tradeApi.js';
+import { TRADE_JOURNAL_FIELDS } from '@/constants';
 
 export default {
    name: 'AddTradeDialog',
@@ -25,6 +26,21 @@ export default {
          isDialogOpen: false,
          isAdding: false,
       };
+   },
+
+   computed: {
+      optionalCheckboxFields(): object[] {
+         return [
+            TRADE_JOURNAL_FIELDS.WeeklyFibCompletion,
+            TRADE_JOURNAL_FIELDS.WeeklyHighLow,
+            TRADE_JOURNAL_FIELDS.WeeklyIC,
+            TRADE_JOURNAL_FIELDS.WeeklyPattern,
+            TRADE_JOURNAL_FIELDS.DailyBreakAndRetest,
+            TRADE_JOURNAL_FIELDS.DailyNewActionFakeout,
+            TRADE_JOURNAL_FIELDS.DailySupplyAndDemand,
+            TRADE_JOURNAL_FIELDS.Missed,
+         ];
+      },
    },
 
    methods: {
@@ -114,10 +130,6 @@ export default {
                   label="H4 screenshot"
                   v-model="trade.h4Screenshot"
                ></v-text-field>
-               <v-checkbox
-                  label="Missed"
-                  v-model="trade.missed"
-               ></v-checkbox>
                <v-text-field
                   label="Profit (%)"
                   v-model="trade.profit"
@@ -126,6 +138,12 @@ export default {
                   label="Note"
                   v-model="trade.note"
                />
+               <v-checkbox
+                  v-for="(field, index) in optionalCheckboxFields"
+                  :key="index"
+                  :label="field.title"
+                  v-model="trade[field.key]"
+               ></v-checkbox>
             </v-card-text>
 
             <v-card-actions>
