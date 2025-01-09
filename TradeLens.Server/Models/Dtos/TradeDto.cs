@@ -37,5 +37,12 @@
         public DateTime? CloseDate { get; set; } // Close date with time
 
         public string Pair { get; set; } // Enum as string (e.g., "EURUSD")
+        public bool? WeeklyHighLow { get; set; }
+        public bool? WeeklyPattern { get; set; }
+        public bool? WeeklyIC { get; set; }
+        public bool? WeeklyFibCompletion { get; set; }
+        public bool? DailyBreakAndRetest { get; set; }
+        public bool? DailySupplyAndDemand { get; set; }
+        public bool? DailyNewActionFakeout { get; set; }
     }
 }
