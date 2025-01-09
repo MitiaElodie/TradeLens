@@ -1,113 +1,155 @@
-export const TRADE_JOURNAL_HEADER = [
-   {
+export const TRADE_JOURNAL_FIELDS = {
+   Id: {
       title: 'Id',
       align: 'start',
       sortable: true,
       key: 'id',
-   },   {
+   },
+   Pair: {
       title: 'Pair',
       align: 'start',
       sortable: true,
       key: 'pair',
    },
-   {
+   Type: {
       title: 'Type',
       align: 'start',
       sortable: true,
       key: 'type',
    },
-   {
+   Result: {
       title: 'Result',
       align: 'start',
       sortable: true,
       key: 'result',
    },
-   {
+   Profit: {
       title: 'Profit (%)',
       align: 'start',
       sortable: true,
       key: 'profit',
    },
-   {
+   EntryDate: {
       title: 'Entry date',
       align: 'start',
       sortable: true,
       key: 'entryDate',
    },
-   {
+   CloseDate: {
       title: 'Close date',
       align: 'start',
       sortable: true,
       key: 'closeDate',
    },
-   {
+   WeeklyLastCandleClose:{
       title: 'Weekly Last Candle Close',
       align: 'start',
       sortable: true,
       key: 'weeklyLastCandleClose',
    },
-   {
+   WeeklySupplyAndDemand: {
       title: 'Weekly supply and demand',
       align: 'start',
       sortable: true,
       key: 'weeklySupplyAndDemand',
    },
-   {
+   WeeklyMarketStructure: {
       title: 'Weekly Market structure',
       align: 'start',
       sortable: true,
       key: 'weeklyMarketStructure',
    },
-   {
+   WeeklyFibonacci: {
       title: 'Weekly Fibonacci',
       align: 'start',
       sortable: true,
       key: 'weeklyFibonacci',
    },
-   {
+   DailyPattern: {
       title: 'Daily Pattern',
       align: 'start',
       sortable: true,
       key: 'dailyPattern',
    },
-   {
+   H4Pattern: {
       title: 'H4 Pattern',
       align: 'start',
       sortable: true,
       key: 'h4Pattern',
    },
-   
-   {
+   WeeklyScreenshot: {
       title: 'Weekly Screenshot',
       align: 'start',
       sortable: true,
       key: 'weeklyScreenshot',
    },
-   {
+   DailyScreenshot: {
       title: 'Daily Screenshot',
       align: 'start',
       sortable: true,
       key: 'dailyScreenshot',
    },
-   {
+   H4Screenshot: {
       title: 'H4 Screenshot',
       align: 'start',
       sortable: true,
       key: 'h4Screenshot',
    },
-   {
+   Missed: {
       title: 'Missed',
       align: 'start',
       sortable: true,
       key: 'missed',
    },
-   {
+   Note: {
       title: 'Note',
       align: 'start',
       sortable: true,
       key: 'note',
    },
-]
+   WeeklyFibCompletion: {
+      title: 'Weekly fib completion',
+      align: 'start',
+      sortable: true,
+      key: 'weeklyFibCompletion',
+   },
+   WeeklyHighLow: {
+      title: 'Weekly high low',
+      align: 'start',
+      sortable: true,
+      key: 'weeklyHighLow',
+   },
+   WeeklyIC: {
+      title: 'Weekly IC',
+      align: 'start',
+      sortable: true,
+      key: 'weeklyIC',
+   },
+   WeeklyPattern: {
+      title: 'Weekly pattern',
+      align: 'start',
+      sortable: true,
+      key: 'weeklyPattern',
+   },
+   DailyBreakAndRetest: {
+      title: 'Daily break and retest',
+      align: 'start',
+      sortable: true,
+      key: 'dailyBreakAndRetest',
+   },
+   DailyNewActionFakeout: {
+      title: 'Daily new action fakeout',
+      align: 'start',
+      sortable: true,
+      key: 'dailyNewActionFakeout',
+   },
+   DailySupplyAndDemand: {
+      title: 'Daily supply and demand',
+      align: 'start',
+      sortable: true,
+      key: 'dailySupplyAndDemand',
+   },
+}
 
 export const TRADE_TYPES = {
    Trade: {
