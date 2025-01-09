@@ -44,7 +44,9 @@ export default {
 <div class="trade-journal">
    <div class="trade-journal__header-container d-flex ga-4 align-center">
       <h1 class="trade-journal__title">Trade journal</h1>
-      <AddTradeDialog />
+      <AddTradeDialog
+         @trade-added="fetchData"
+      />
    </div>
    <v-data-table
       :headers="TRADE_JOURNAL_HEADER"
