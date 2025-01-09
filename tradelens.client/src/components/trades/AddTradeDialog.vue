@@ -4,6 +4,7 @@ import MultiselectCurrencyPair from '@/components/multiselect/MultiselectCurrenc
 import MultiselectResultType from '@/components/multiselect/MultiselectResultType.vue';
 import MultiselectDailyPattern from '@/components/multiselect/MultiselectDailyPattern.vue';
 import MultiselectH4Pattern from '@/components/multiselect/MultiselectH4Pattern.vue';
+import DateAndTimePicker from '@/components/forms/DateAndTimePicker.vue';
 import { getEmptyTrade } from '@/utils.js';
 import * as tradeApi from '@/api/tradeApi.js';
 
@@ -15,6 +16,7 @@ export default {
       MultiselectResultType,
       MultiselectDailyPattern,
       MultiselectH4Pattern,
+      DateAndTimePicker,
    },
 
    data() {
@@ -69,6 +71,14 @@ export default {
                />
                <MultiselectResultType
                   v-model="trade.result"
+               />
+               <DateAndTimePicker
+                  v-model="trade.entryDate"
+                  label="Entry date and time"
+               />
+               <DateAndTimePicker
+                  v-model="trade.closeDate"
+                  label="Close date and time"
                />
                <v-checkbox
                   label="Weekly last candle close"

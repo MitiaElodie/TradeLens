@@ -25,5 +25,7 @@ export function getEmptyTrade(): object {
       missed: false,
       note: '',
       profit: undefined,
+      closeDate: '',
+      entryDate: ''
    }
 }
