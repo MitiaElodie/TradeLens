@@ -21,6 +21,8 @@
                 .ForMember(dest => dest.Result, opt => opt.MapFrom(src => Enum.Parse<ResultType>(src.Result)))
                 .ForMember(dest => dest.Type, opt => opt.MapFrom(src => Enum.Parse<TradeType>(src.Type)))
                 .ForMember(dest => dest.Pair, opt => opt.MapFrom(src => Enum.Parse<CurrencyPair>(src.Pair)));
+
+            CreateMap<TradeCsvRecord, Trade>();
         }
     }
 
