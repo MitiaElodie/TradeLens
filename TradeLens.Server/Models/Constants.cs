@@ -13,7 +13,9 @@
         HSWithBOS,
         HSWithoutBOS,
         InverseHSWithBOS,
-        InverseHSWithoutBOS
+        InverseHSWithoutBOS,
+        NotApplicable,
+        LimitOrder,
     }
     public enum DailyPattern
     {
