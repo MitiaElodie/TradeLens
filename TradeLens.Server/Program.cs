@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using TradeLens.Server.BusinessLogic;
 using TradeLens.Server.Profiles;
 using TradeLens.Server.Services;
 
@@ -10,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<TradeImportService>();
+builder.Services.AddScoped<TradeBusinessLogic>();
 
 // Register AutoMapper
 builder.Services.AddAutoMapper(typeof(Program));

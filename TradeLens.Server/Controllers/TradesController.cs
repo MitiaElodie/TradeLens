@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using TradeLens.Server.BusinessLogic;
 using TradeLens.Server.Models;
 using TradeLens.Server.Models.Dtos;
 using TradeLens.Server.Services;
@@ -12,20 +12,20 @@ public class TradesController : ControllerBase
     private readonly TradeLensDbContext _context;
     private readonly IMapper _mapper;
     private readonly TradeImportService _importService;
+    private readonly TradeBusinessLogic _businessLogic;
 
-    public TradesController(TradeLensDbContext context, IMapper mapper, TradeImportService importService)
+    public TradesController(TradeLensDbContext context, IMapper mapper, TradeImportService importService, TradeBusinessLogic tradeBusinessLogic)
     {
         _context = context;
         _importService = importService;
         _mapper = mapper;
+        _businessLogic = tradeBusinessLogic;
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetTrades()
+    public async Task<List<TradeDto>> GetTrades()
     {
-        var trades = await _context.Trades.ToListAsync();
-        var tradeDtos = _mapper.Map<List<TradeDto>>(trades);
-        return Ok(tradeDtos);
+        return await _businessLogic.GetTrades();
     }
 
     [HttpPost]
