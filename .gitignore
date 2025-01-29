@@ -18,3 +18,5 @@ bin/
 TradeLens.Server/obj/
 
 obj/
+
+trades.csv
