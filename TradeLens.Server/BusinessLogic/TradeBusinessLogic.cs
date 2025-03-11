@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using TradeLens.Server.Models;
 using TradeLens.Server.Models.Dtos;
 
 namespace TradeLens.Server.BusinessLogic
@@ -20,6 +22,12 @@ namespace TradeLens.Server.BusinessLogic
         {
             var trades = await _context.Trades.ToListAsync();
             return _mapper.Map<List<TradeDto>>(trades);
+        }
+
+        public async Task CreateTrade(TradeDto tradeDto)
+        {
+            _context.Trades.Add(_mapper.Map<Trade>(tradeDto));
+            await _context.SaveChangesAsync();
         }
     }
 }

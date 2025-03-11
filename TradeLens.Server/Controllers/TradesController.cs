@@ -31,9 +31,8 @@ public class TradesController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> CreateTrade([FromBody] TradeDto tradeDto)
     {
-        _context.Trades.Add(_mapper.Map<Trade>(tradeDto));
-        await _context.SaveChangesAsync();
-        return CreatedAtAction(nameof(GetTrades), new { id = tradeDto.Id }, tradeDto);
+        await _businessLogic.CreateTrade(tradeDto);
+        return NoContent();
     }
 
     [HttpPost("import")]
